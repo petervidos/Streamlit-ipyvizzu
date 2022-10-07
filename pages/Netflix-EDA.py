@@ -55,7 +55,7 @@ with col1.container():
                 "title": "Treemap",
             }
         ),
-        Style({"plot": {"marker": {"label": {"fontSize": 14}}}}),
+        Style({"plot": {"marker": {"label": {"fontSize": ccdf.index}}}}),
     )
 
     chart.animate(
