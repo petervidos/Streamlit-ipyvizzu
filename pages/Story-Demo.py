@@ -21,7 +21,7 @@ def create_chart():
     data.add_data_frame(df)
     #@title Create the story
     story = Story(data=data)
-    story.set_size(800, 450)
+    story.set_size(700, 450)
 
     label_handler_method = "if(event.data.text.split(' ')[0] < 5) event.preventDefault()"
 
